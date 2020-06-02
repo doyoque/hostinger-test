@@ -1,0 +1,17 @@
+$font-roboto-path: "../fonts/roboto";
+$font-montserrat-path: "../fonts/montserrat";
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url("#{$font-roboto-path}/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url("#{$font-montserrat-path}/Montserrat-Bold.otf");
+}
+
+a.nav-link {
+    font-family: Roboto-Light;
+    font-weight: 600;
+}
