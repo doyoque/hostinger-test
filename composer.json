@@ -60,7 +60,9 @@
         ],
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "chmod -R 775 public/ storage/ bootstrap/cache/"
+            "chmod -R 775 public/ storage/ bootstrap/cache/",
+            "npm install",
+            "npm run prod"
         ]
     }
 }
