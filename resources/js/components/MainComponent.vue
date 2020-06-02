@@ -1,21 +1,27 @@
 <template>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="col-md-8">
-        <div class="card">
-          <div class="card-header">Example Component</div>
+    <div class="container">
+        <!-- for navigation -->
+        <navbar-component></navbar-component>
+        <!-- <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Example Component</div>
 
-          <div class="card-body">I'm an example component.</div>
-        </div>
-      </div>
+                    <div class="card-body">I'm an example component.</div>
+                </div>
+            </div>
+        </div> -->
     </div>
-  </div>
 </template>
 
 <script>
+import NavbarComponent from "../components/layouts/NavbarComponent";
 export default {
-  mounted() {
-    console.log("Component mounted.");
-  }
+    components: {
+        "navbar-component": NavbarComponent
+    },
+    mounted() {
+        console.log("Component mounted.");
+    }
 };
 </script>
