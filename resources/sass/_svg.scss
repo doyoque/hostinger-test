@@ -1,0 +1,15 @@
+$svg-cpanel: "../svg";
+
+@font-face {
+    font-family: IconCpanel;
+    src: url("#{$svg-cpanel}/icon PHP Hosting_CPanel.svg") format("svg");
+}
+
+@font-face {
+    font-family: IconGaransi;
+    src: url("#{$svg-cpanel}/icon PHP Hosting_garansi uptime.svg") format("svg");
+}
+
+.php-icon-cpanel {
+    font-family: IconCpanel;
+}
