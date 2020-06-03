@@ -11,7 +11,21 @@ $font-montserrat-path: "../fonts/montserrat";
     src: url("#{$font-montserrat-path}/Montserrat-Bold.otf");
 }
 
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("#{$font-montserrat-path}/Montserrat-Light.otf");
+}
+
 a.nav-link {
     font-family: Roboto-Light;
     font-weight: 600;
+}
+
+.php-title {
+    font-family: Montserrat-Bold;
+}
+
+.php-desc {
+    font-family: Montserrat-Light;
+    font-weight: 200;
 }
