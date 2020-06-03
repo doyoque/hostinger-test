@@ -1,6 +1,8 @@
 <template>
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="#">Hostinger</a>
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <a class="navbar-brand" href="#">
+      <img :src="'/img/logo2.png'" />
+    </a>
     <button
       class="navbar-toggler"
       type="button"

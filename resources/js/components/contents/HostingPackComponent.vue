@@ -1,25 +1,31 @@
 <template>
   <div>
-    <div class="row" id="1">
-      <div class="col-4" id="1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ad delectus veniam porro sapiente, alias quos ut minus voluptate pariatur ipsa nostrum corrupti labore eveniet eos hic suscipit sint odio.</p>
+    <div class="row mt-5 mb-5" id="1">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="1">
+        <h4 class="php-title">PHP Semu Versi</h4>
+        <p class="php-desc">Pilih mulai dari versi PHP 5.3 s/d PHP 7. Ubah sesuka Anda!</p>
       </div>
-      <div class="col-4" id="2">
-        <p>Obcaecati deleniti numquam similique blanditiis accusantium nobis, porro soluta sit quos illum labore eaque perspiciatis? Dolorum enim, dignissimos neque dolor quas inventore vel pariatur eligendi. Aliquam quibusdam dignissimos quisquam recusandae.</p>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="2">
+        <h4 class="php-title">MySQL Versi 5.6</h4>
+        <p class="php-desc">Nikmati MySQL versi terbaru, tercepat, dan kaya akan fitur.</p>
       </div>
-      <div class="col-4" id="3">
-        <p>Saepe at possimus deserunt illo odio doloremque laudantium tempora iure nesciunt dignissimos quidem cumque voluptate architecto illum, expedita debitis sint ex tempore fugit enim, nisi corporis natus quo similique. Fugit.</p>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="3">
+        <h4 class="php-title">Panel Hosting cPanel</h4>
+        <p class="php-desc">Kelola website dengan panel canggih yang familiar di hati Anda.</p>
       </div>
     </div>
     <div class="row" id="2">
-      <div class="col-4" id="1">
-        <p>Obcaecati, illum? Aperiam vero omnis dolores ut dolorem. Possimus porro totam odio perspiciatis harum eius nisi, necessitatibus exercitationem saepe eligendi labore! Velit maxime porro totam minus recusandae ea sequi repellendus.</p>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="1">
+        <h4 class="php-title">Garansi Uptime 99.9%</h4>
+        <p class="php-desc">Data center yang mendukung kelangsungan website Anda 24/7.</p>
       </div>
-      <div class="col-4" id="2">
-        <p>Voluptatibus, voluptatem enim reprehenderit porro quod itaque fugiat voluptas ipsum veniam mollitia, quidem magni blanditiis perferendis. Sapiente quos quo, voluptas sunt eius voluptatum nihil incidunt. Cupiditate eius nulla dolorum tenetur!</p>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="2">
+        <h4 class="php-title">Database InnoDB Unlimited</h4>
+        <p class="php-desc">Jumlah dan ukuran database yang tumbuh sesuai kebutuhan Anda.</p>
       </div>
-      <div class="col-4" id="3">
-        <p>Sapiente culpa cupiditate eligendi aperiam a voluptatibus labore quas quisquam obcaecati? Dolorem nobis quos ab suscipit impedit quo earum accusantium repudiandae, repellendus recusandae, inventore quam odio! Culpa dolor harum expedita?</p>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="3">
+        <h4 class="php-title">Wildcard Remote MySQL</h4>
+        <p class="php-desc">Mendukung s/d 25 max_user_connections dan 100 max_connections.</p>
       </div>
     </div>
   </div>

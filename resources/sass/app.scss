@@ -10,25 +10,25 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-ol,
-ul,
-dl {
-    padding-left: 1.9em;
-}
-
-.list-display li {
+.list-banner li {
     margin-bottom: 0.4rem;
     font-size: 1.1rem;
 }
 
-.list-checkmarks li {
+.list-laravel li {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+
+.list-checkmarks li,
+.list-features li {
     list-style-type: none;
 }
 
 .list-checkmarks li:before {
     font-family: "Font Awesome 5 Free";
     content: "\f058";
-    margin: 0 10px 0 -28px;
+    margin: 0 10px 0 -25px;
     color: #17aa1c;
     font-weight: 600;
 }
