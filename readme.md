@@ -22,6 +22,7 @@ My attempt to finish the test as frontend developer
 
 ```bash
 # clone this repository
+# make sure to set value of DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD before installation
 git clone https://github.com/doyoque/hostinger-test.git
 
 # do composer install
@@ -29,12 +30,6 @@ composer install
 
 # if installed properly do artisan:key generate
 php artisan key:generate
-
-# run migration
-php artisan migrate
-
-# run seeders for data dummy
-php artisan db:seed
 
 # boot up
 php artisan serve
