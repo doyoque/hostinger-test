@@ -3,7 +3,7 @@
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
       <h4 class="content-title text-center">Powerful dengan Limit PHP yang Lebih Besar</h4>
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="1">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-3" id="1">
       <ul class="list-group">
         <li class="list-group-item" id="1">
           <span class="php-check">
@@ -22,7 +22,7 @@
         </li>
       </ul>
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="2">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-3" id="2">
       <ul class="list-group">
         <li class="list-group-item" id="1">
           <span class="php-check">
@@ -43,11 +43,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  mounted() {
-    console.log("PHP mounted");
-  }
-};
-</script>
