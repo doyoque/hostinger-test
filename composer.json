@@ -60,8 +60,8 @@
         ],
         "post-install-cmd": [
             "php artisan clear-compiled",
-            "chmod -R 775 public/ storage/ bootstrap/cache/"
-            "php artisan migrate:refresh",
+            "chmod -R 775 public/ storage/ bootstrap/cache/",
+            "php artisan migrate:refresh"
         ]
     }
 }
