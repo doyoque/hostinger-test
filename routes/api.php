@@ -17,6 +17,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resources([
-    'promo' => 'PromoController'
-]);
+Route::group(['middleware' => 'cors'], function() {
+    Route::resources([
+        'promo' => 'PromoController'
+    ]);
+});

@@ -27,9 +27,24 @@
 </template>
 
 <script>
+import services from "../../services/PromoService";
+
 export default {
   mounted() {
-    console.log("promo mounted");
+    console.log("BIJI NGONDOI");
+  },
+  computed: {
+    getPackagePromo() {
+      let promos = services
+        .getPromo()
+        .then(res => console.log(res))
+        .catch(err => {
+          console.log(err);
+        });
+    }
+  },
+  created() {
+    this.getPackagePromo;
   }
 };
 </script>
