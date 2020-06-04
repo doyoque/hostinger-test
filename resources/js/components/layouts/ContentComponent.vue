@@ -7,6 +7,7 @@
     <hosting-component></hosting-component>
     <laravel-component></laravel-component>
     <modulephp-component></modulephp-component>
+    <linux-component></linux-component>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import PromoComponent from "../contents/PromoComponent";
 import PHPComponent from "../contents/PhpComponent";
 import LaravelComponent from "../contents/LaravelComponent";
 import ModulePhpComponent from "../contents/ModulePhpComponent";
+import LinuxComponent from "../contents/LinuxComponent";
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     "promo-component": PromoComponent,
     "php-component": PHPComponent,
     "laravel-component": LaravelComponent,
-    "modulephp-component": ModulePhpComponent
+    "modulephp-component": ModulePhpComponent,
+    "linux-component": LinuxComponent
   }
 };
 </script>

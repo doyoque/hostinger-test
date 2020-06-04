@@ -6,7 +6,7 @@
         <div
           v-for="(module, index) in php_modules"
           :key="index"
-          class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6"
+          class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 centered-module"
         >{{module.module_name}}</div>
       </div>
     </div>

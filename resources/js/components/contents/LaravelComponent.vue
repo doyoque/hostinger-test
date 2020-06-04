@@ -1,11 +1,11 @@
 <template>
   <div class="row mt-5 mb-5">
-    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-3">
       <h4 class="content-title text-center">Mendukung Penuh Framework Laravel</h4>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5" id="1">
       <h5
-        class="laravel-desc"
+        class="laravel-desc mb-3"
       >Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</h5>
       <ul class="list-laravel list-checkmarks pl-4">
         <li id="1">
@@ -26,7 +26,9 @@
       <p>
         <small>Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</small>
       </p>
-      <button class="btn btn-primary btn-lg btn-laravel">Pilih Hosting Anda</button>
+      <div class="centered-btn">
+        <button class="btn btn-primary btn-lg btn-laravel">Pilih Hosting Anda</button>
+      </div>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5" id="2">
       <img :src="'/img/svg/illustration banner support laravel hosting.svg'" />
