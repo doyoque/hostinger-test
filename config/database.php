@@ -70,7 +70,7 @@ return [
             'url' => env('PG_CONNECTION'),
             'host' => $PG_CONNECTION['host'],
             'port' => $PG_CONNECTION['port'],
-            'database' => ltrim($db_url['path'], ''),
+            'database' => ltrim($db_url['path'], '/'),
             'username' => $PG_CONNECTION['user'],
             'password' => $PG_CONNECTION['pass'],
             'charset' => 'utf8',
