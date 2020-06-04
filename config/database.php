@@ -3,6 +3,7 @@
 use Illuminate\Support\Str;
 
 $PG_CONNECTION = parse_url(env('PG_CONNECTION'));
+$defaultConnection = (env('APP_ENV') == 'local' ? 'mysql' : 'pgsql');
 
 return [
 
@@ -17,7 +18,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql'),
+    'default' => env('DB_CONNECTION', $defaultConnection),
 
     /*
     |--------------------------------------------------------------------------
