@@ -6,11 +6,3 @@
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="2"></div>
   </div>
 </template>
-
-<script>
-export default {
-  mounted() {
-    console.log("php moudule mounted");
-  }
-};
-</script>

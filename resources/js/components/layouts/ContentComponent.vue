@@ -28,9 +28,6 @@ export default {
     "php-component": PHPComponent,
     "laravel-component": LaravelComponent,
     "modulephp-component": ModulePhpComponent
-  },
-  mounted() {
-    console.log("ContentComponent Mounted");
   }
 };
 </script>

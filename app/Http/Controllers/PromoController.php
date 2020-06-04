@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Promo;
 
-class PriceController extends Controller
+class PromoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,8 @@ class PriceController extends Controller
      */
     public function index()
     {
-        //
+        $getPromo = Promo::all();
+        return $getPromo;
     }
 
     /**

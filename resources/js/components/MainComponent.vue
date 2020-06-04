@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- header -->
-    <header-component></header-component>
+    <!-- <header-component></header-component> -->
 
     <!-- navigation -->
     <navbar-component></navbar-component>
@@ -21,9 +21,6 @@ export default {
     "navbar-component": NavbarComponent,
     "header-component": HeaderComponent,
     "content-component": ContentComponent
-  },
-  mounted() {
-    console.log("Component mounted.");
   }
 };
 </script>
