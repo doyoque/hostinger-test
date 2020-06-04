@@ -10,38 +10,6 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-.list-banner li {
-    margin-bottom: 0.4rem;
-    font-size: 1.1rem;
-}
-
-.list-laravel li {
-    margin-bottom: 0.4rem;
-    font-size: 1rem;
-}
-
-.list-checkmarks li,
-.list-features li {
-    list-style-type: none;
-}
-
-.list-checkmarks li::before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f058";
-    margin: 0 10px 0 -25px;
-    color: #17aa1c;
-    font-weight: 600;
-}
-
-.hosting-pack-icon {
-    width: 6em;
-}
-
-span.php-check {
-    color: #17aa1c;
-}
-
-.btn-laravel,
-.btn-php-modules {
-    border-radius: 4em;
-}
+@import "button";
+@import "lists";
+@import "_icons";

@@ -31,8 +31,14 @@ a.nav-link {
     font-weight: 600;
 }
 
-.content-head-title {
+.content-head-title,
+.bold-call-center {
     font-family: Montserrat-Bold;
+}
+
+.bold-call-center,
+h2.call-center {
+    color: #fff;
 }
 
 .content-title {
@@ -58,4 +64,11 @@ a.nav-link {
 
 .hosting-pack-title {
     font-family: Montserrat-Bold;
+}
+
+.call-center {
+    font-family: Roboto-Light;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1.5em;
 }

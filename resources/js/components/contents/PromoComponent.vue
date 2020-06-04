@@ -18,14 +18,15 @@
           <li class="list-group-item pricing">{{item.price}}/bln</li>
           <li class="list-group-item user-number">{{item.user_registered}} Pengguna Terdaftar</li>
         </ul>
-        <div class="card-body">
+        <div class="card-body text-center">
           <ul
             v-for="(feature, fx) in item.list_feature"
             :key="fx"
-            class="list-features text-center pl-0"
+            class="list-features pl-0"
           >
             <li>{{feature}}</li>
           </ul>
+          <button type="button" class="btn btn-primary btn-promo">Pilih Sekarang</button>
         </div>
       </div>
     </div>

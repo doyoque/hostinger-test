@@ -20,7 +20,7 @@
         <p class="hosting-pack-desc">Kelola website dengan panel canggih yang familiar di hati Anda.</p>
       </div>
     </div>
-    <div class="row" id="2">
+    <div class="row mb-5" id="2">
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text-center" id="1">
         <img class="hosting-pack-icon" :src="'img/svg/icon PHP Hosting_garansi uptime.svg'" />
         <h4 class="hosting-pack-title">Garansi Uptime 99.9%</h4>
