@@ -17,7 +17,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -70,7 +70,7 @@ return [
             'url' => env('PG_CONNECTION'),
             'host' => $PG_CONNECTION['host'],
             'port' => $PG_CONNECTION['port'],
-            'database' => ltrim($db_url['path'], '/'),
+            'database' => ltrim($PG_CONNECTION['path'], '/'),
             'username' => $PG_CONNECTION['user'],
             'password' => $PG_CONNECTION['pass'],
             'charset' => 'utf8',
