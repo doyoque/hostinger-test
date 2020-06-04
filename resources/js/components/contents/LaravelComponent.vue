@@ -3,7 +3,7 @@
     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb-5">
       <h4 class="content-title text-center">Mendukung Penuh Framework Laravel</h4>
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="1">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5" id="1">
       <h5
         class="laravel-desc"
       >Tak perlu menggunakan dedicated server ataupun VPS yang mahal. Layanan PHP hosting murah kami mendukung penuh framework favorit Anda</h5>
@@ -28,7 +28,7 @@
       </p>
       <button class="btn btn-primary btn-lg btn-laravel">Pilih Hosting Anda</button>
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="2">
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-5" id="2">
       <img :src="'/img/svg/illustration banner support laravel hosting.svg'" />
     </div>
   </div>
