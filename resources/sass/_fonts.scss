@@ -16,16 +16,45 @@ $font-montserrat-path: "../fonts/montserrat";
     src: url("#{$font-montserrat-path}/Montserrat-Light.otf");
 }
 
+@font-face {
+    font-family: Roboto-Thin;
+    src: url("#{$font-roboto-path}/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url("#{$font-roboto-path}/Roboto-Bold.ttf");
+}
+
 a.nav-link {
     font-family: Roboto-Light;
     font-weight: 600;
 }
 
-.php-title {
+.content-head-title {
     font-family: Montserrat-Bold;
 }
 
-.php-desc {
+.content-title {
     font-family: Montserrat-Light;
     font-weight: 200;
+}
+
+.laravel-desc {
+    font-family: Roboto-Light;
+    line-height: 1.5em;
+}
+
+.btn-laravel {
+    font-family: Roboto-Bold;
+    border-radius: 30px;
+}
+
+.hosting-pack-desc {
+    font-family: Roboto-Thin;
+    font-weight: 600;
+}
+
+.hosting-pack-title {
+    font-family: Montserrat-Bold;
 }

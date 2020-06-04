@@ -25,10 +25,22 @@
     list-style-type: none;
 }
 
-.list-checkmarks li:before {
+.list-checkmarks li::before {
     font-family: "Font Awesome 5 Free";
     content: "\f058";
     margin: 0 10px 0 -25px;
     color: #17aa1c;
     font-weight: 600;
+}
+
+.hosting-pack-icon {
+    width: 6em;
+}
+
+span.php-check {
+    color: #17aa1c;
+}
+
+.btn-laravel {
+    border-radius: 4em;
 }

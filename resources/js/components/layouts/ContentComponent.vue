@@ -6,6 +6,7 @@
     <php-component></php-component>
     <hosting-component></hosting-component>
     <laravel-component></laravel-component>
+    <modulephp-component></modulephp-component>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import HostingPackComponent from "../contents/HostingPackComponent";
 import PromoComponent from "../contents/PromoComponent";
 import PHPComponent from "../contents/PhpComponent";
 import LaravelComponent from "../contents/LaravelComponent";
+import ModulePhpComponent from "../contents/ModulePhpComponent";
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     "hosting-component": HostingPackComponent,
     "promo-component": PromoComponent,
     "php-component": PHPComponent,
-    "laravel-component": LaravelComponent
+    "laravel-component": LaravelComponent,
+    "modulephp-component": ModulePhpComponent
   },
   mounted() {
     console.log("ContentComponent Mounted");
