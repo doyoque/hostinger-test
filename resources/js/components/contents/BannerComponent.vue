@@ -11,7 +11,7 @@
       </ul>
     </div>
     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="2">
-      <p>Aliquid, quo perferendis tenetur provident saepe possimus, modi nisi, dolor excepturi totam doloribus! Dolor, ratione aperiam? Maiores aut ad cum suscipit culpa sint ipsam ratione, maxime hic sed asperiores non!</p>
+      <img :src="'/img/svg/illustration banner PHP hosting-01.svg'" />
     </div>
   </div>
 </template>

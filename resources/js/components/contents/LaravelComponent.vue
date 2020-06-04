@@ -21,7 +21,9 @@
         </li>
       </ul>
     </div>
-    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="2"></div>
+    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" id="2">
+      <img :src="'/img/svg/illustration banner support laravel hosting.svg'" />
+    </div>
   </div>
 </template>
 
